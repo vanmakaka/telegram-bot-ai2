@@ -73,7 +73,7 @@ async def main():
     while True:
         await asyncio.sleep(3600)
 
-if name == '__main__':
+if _name_ == '__main__':
     try:
         asyncio.run(main())
     except (KeyboardInterrupt, SystemExit):
